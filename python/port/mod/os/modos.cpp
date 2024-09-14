@@ -25,7 +25,9 @@ STATIC const MP_DEFINE_STR_OBJ(modos_uname_info_nodename_obj, "");
 STATIC const MP_DEFINE_STR_OBJ(modos_uname_info_release_obj, "O" MP_STRINGIFY(OMEGA_VERSION) "E-" MP_STRINGIFY(EPSILON_VERSION));
 STATIC const MP_DEFINE_STR_OBJ(modos_uname_info_version_obj, MICROPY_VERSION_STRING);
 
-#if defined(DEVICE_N0110)
+#if defined(DEVICE_N0115)
+STATIC const MP_DEFINE_STR_OBJ(modos_uname_info_machine_obj, "NumWorks N0115");
+#elif defined(DEVICE_N0110)
 STATIC const MP_DEFINE_STR_OBJ(modos_uname_info_machine_obj, "NumWorks N0110");
 #elif defined(DEVICE_N0100)
 STATIC const MP_DEFINE_STR_OBJ(modos_uname_info_machine_obj, "NumWorks N0100");

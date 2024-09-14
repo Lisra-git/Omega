@@ -59,9 +59,9 @@ ifeq ("$(PLATFORM)", "device")
   SFLAGS += -DPLATFORM_DEVICE
   ifeq ("$(MODEL)", "n0100")
     SFLAGS += -DDEVICE_N0100
-  else ifeq ("$(MODEL)", "n0110")
+  else ifneq (,$(filter $(MODEL),n0110 n0110_bootloader))
     SFLAGS += -DDEVICE_N0110
-  else ifeq ("$(MODEL)", "n0115")
+  else ifneq (,$(filter $(MODEL),n0115 n0115_bootloader))
     SFLAGS += -DDEVICE_N0115
   else
     SFLAGS += -DDEVICE_UNKNOWN
