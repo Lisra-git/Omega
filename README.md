@@ -11,7 +11,7 @@
 > Vous ne comprenez pas l'anglais ? vous êtes francophone ? Regardez le [*LISEZ-MOI* français](./README.fr.md) !
 
 > [!WARNING]
-> *Update 02-02-2024*: The source code of Omega is on hold until a new version of Phi is released. Meanwhile, contributions will not be accepted/reviewed, so the project is marked as read-only to avoid confusion.
+> The source code of Omega still exist as a base reference for forks/other projects. For daily use, we recommend using the Upsilon project, which is a maintained version of Omega.
 >
 > - Check the [Upsilon Project ⭐️](https://github.com/UpsilonNumworks/Upsilon/) for a maintained version of Omega;
 > - Omega is and will remain available. You can still get official support on [Discord](https://discord.gg/JpmjSH3).

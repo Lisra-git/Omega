@@ -11,7 +11,7 @@
 > Don't understand french ? speak english ? here's the [english README](./README.md) !
 
 > [!WARNING]
-> *Mise à jour 02-02-2024*: Le code source d'Omega est en pause jusqu'à ce qu'une nouvelle version de Phi sorte. Pendant ce temps, les contributions ne seront pas acceptées/examinées. Le projet est donc marqué en lecture seule pour éviter toute confusion.
+> Le code source d'Omega existe toujours comme référence de base pour les forks/autres projets. Pour une utilisation quotidienne, nous recommandons d'utiliser le projet Upsilon, qui est une version maintenue d'Omega.
 >
 > - Consultez le [Projet Upsilon ⭐️](https://github.com/UpsilonNumworks/Upsilon/) pour une version maintenue d'Omega;
 > - Omega est et restera disponible. Vous pouvez toujours obtenir du support officiel sur le [Discord](https://discord.gg/JpmjSH3).

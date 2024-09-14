@@ -113,7 +113,7 @@ void Interface::draw(int currentUSB) {
   ctx->drawString("USB Flash Mode: ", KDPoint(0, 180), KDFont::SmallFont, KDColorWhite, KDColorBlack);
   ctx->drawString(USBFlashVerbose, KDPoint(112, 180), KDFont::SmallFont, KDColorWhite, KDColorBlack);
   ctx->drawString("Press (+) to switch mode", KDPoint(0, 193), KDFont::SmallFont, KDColorWhite, KDColorBlack);
-  ctx->drawString("2.0.6", KDPoint(260, 180), KDFont::LargeFont, KDColorRed, KDColorBlack);
+  ctx->drawString("2.1.0", KDPoint(260, 180), KDFont::LargeFont, KDColorRed, KDColorBlack);
   if (Bootloader::Slot::A().kernelHeader()->isValid()) {
 	  const char* version = Bootloader::Slot::A().kernelHeader()->version();
       bool isExam = Bootloader::ExamMode::SlotsExamMode::FetchSlotExamMode(version, "A") > 0;
